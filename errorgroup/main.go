@@ -54,7 +54,7 @@ func withCtx() {
 	}
 
 	fmt.Println("Go Routine:", runtime.NumGoroutine())
-	select {}
+
 }
 
 func runCtx(ctx context.Context, i int) error {
